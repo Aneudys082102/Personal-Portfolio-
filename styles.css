@@ -1,6 +1,4 @@
-/* =========================================================
-   TOKENS
-   ========================================================= */
+
 :root {
   --paper: #F0E9DA;
   --paper-raised: #F6F1E6;
@@ -25,9 +23,7 @@
   :root { --dur: 0s; }
 }
 
-/* =========================================================
-   RESET
-   ========================================================= */
+
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) {
@@ -53,9 +49,7 @@ img { max-width: 100%; display: block; }
   outline-offset: 3px;
 }
 
-/* =========================================================
-   SHEET FRAME + REGISTRATION MARKS
-   ========================================================= */
+
 .reg-mark {
   position: fixed;
   width: 22px;
@@ -90,9 +84,6 @@ img { max-width: 100%; display: block; }
   border-right: 1px solid var(--hairline);
 }
 
-/* =========================================================
-   NAV
-   ========================================================= */
 .nav {
   display: flex;
   align-items: center;
@@ -171,9 +162,7 @@ img { max-width: 100%; display: block; }
   .nav__toggle { display: flex; }
 }
 
-/* =========================================================
-   HERO
-   ========================================================= */
+
 .hero {
   padding: 72px 0 0;
 }
@@ -199,7 +188,7 @@ img { max-width: 100%; display: block; }
   color: var(--ink-soft);
 }
 
-/* Signature element: title block */
+
 .title-block {
   margin-top: 56px;
   border: 1px solid var(--ink);
@@ -242,9 +231,7 @@ img { max-width: 100%; display: block; }
   .title-block__cell:not(:first-child) { border-top: 1px solid var(--ink); }
 }
 
-/* =========================================================
-   SECTIONS (shared)
-   ========================================================= */
+
 .section {
   padding: 88px 0;
   border-top: 1px solid var(--hairline);
@@ -269,9 +256,7 @@ img { max-width: 100%; display: block; }
   color: var(--ink-soft);
 }
 
-/* =========================================================
-   SKILLS — parts list
-   ========================================================= */
+
 .parts-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -294,9 +279,7 @@ img { max-width: 100%; display: block; }
 }
 .parts-group__items li:last-child { border-bottom: none; }
 
-/* =========================================================
-   PROJECTS — spec cards
-   ========================================================= */
+
 .spec-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -374,9 +357,6 @@ img { max-width: 100%; display: block; }
   font-style: italic;
 }
 
-/* =========================================================
-   EDUCATION — record
-   ========================================================= */
 .record__row {
   display: flex;
   gap: 20px;
@@ -400,9 +380,7 @@ img { max-width: 100%; display: block; }
   max-width: 62ch;
 }
 
-/* =========================================================
-   CONTACT — manifest
-   ========================================================= */
+
 .manifest__row {
   display: flex;
   align-items: baseline;
@@ -429,9 +407,7 @@ img { max-width: 100%; display: block; }
   border-color: var(--rust);
 }
 
-/* =========================================================
-   FOOTER
-   ========================================================= */
+
 .footer {
   display: flex;
   align-items: center;
