@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aneudys Garcia — Software Engineer</title>
+  <meta name="description" content="Portfolio of Aneudys Garcia, aspiring software engineer. Projects, skills, and contact information.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Corner registration marks -->
+  <div class="reg-mark reg-mark--tl" aria-hidden="true"></div>
+  <div class="reg-mark reg-mark--tr" aria-hidden="true"></div>
+  <div class="reg-mark reg-mark--bl" aria-hidden="true"></div>
+  <div class="reg-mark reg-mark--br" aria-hidden="true"></div>
+
+  <div class="sheet">
+
+    <!-- NAV -->
+    <header class="nav" id="top">
+      <a href="#top" class="nav__mark">AG</a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinksMobile">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <nav class="nav-mobile" id="navLinksMobile" aria-label="Mobile">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="about">
+      <p class="eyebrow">Software Engineer — Portfolio</p>
+      <h1 class="hero__name">Aneudys<br>Garcia</h1>
+      <p class="hero__tagline">I build software that holds up under real use — from
+        desktop inventory systems to the small interfaces people rely on every day.
+        Currently sharpening my craft in Java, JavaScript, and database-backed
+        applications, and looking for my first engineering role.</p>
+
+      <!-- Signature element: title block -->
+      <div class="title-block" role="group" aria-label="Profile summary">
+        <div class="title-block__cell">
+          <span class="title-block__label">Name</span>
+          <span class="title-block__value">Aneudys Garcia</span>
+        </div>
+        <div class="title-block__cell">
+          <span class="title-block__label">Role</span>
+          <span class="title-block__value">Software Engineer</span>
+        </div>
+        <div class="title-block__cell">
+          <span class="title-block__label">Focus</span>
+          <span class="title-block__value">Java · Web · Systems</span>
+        </div>
+        <div class="title-block__cell">
+          <span class="title-block__label">Status</span>
+          <span class="title-block__value title-block__value--accent">Open to Work</span>
+        </div>
+        <div class="title-block__cell">
+          <span class="title-block__label">Rev.</span>
+          <span class="title-block__value">2026.01</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="section__head">
+        <h2 class="section__title">Skills</h2>
+        <p class="section__meta">Parts list — languages, tools, practices</p>
+      </div>
+
+      <div class="parts-list">
+        <div class="parts-group">
+          <h3 class="parts-group__title">Languages</h3>
+          <ul class="parts-group__items">
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+          </ul>
+        </div>
+
+        <div class="parts-group">
+          <h3 class="parts-group__title">Frameworks &amp; Libraries</h3>
+          <ul class="parts-group__items">
+            <li>JavaFX</li>
+            <li>FXML</li>
+            <li>JDBC</li>
+            <li>REST APIs</li>
+          </ul>
+        </div>
+
+        <div class="parts-group">
+          <h3 class="parts-group__title">Data &amp; Platforms</h3>
+          <ul class="parts-group__items">
+            <li>SQLite</li>
+            <li>Firebase / Firestore</li>
+            <li>Microsoft SQL Server</li>
+          </ul>
+        </div>
+
+        <div class="parts-group">
+          <h3 class="parts-group__title">Tools</h3>
+          <ul class="parts-group__items">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>IntelliJ IDEA</li>
+            <li>Visual Studio Code</li>
+          </ul>
+        </div>
+
+        <div class="parts-group">
+          <h3 class="parts-group__title">Practice</h3>
+          <ul class="parts-group__items">
+            <li>Responsive web design</li>
+            <li>Accessibility</li>
+            <li>UI/UX</li>
+            <li>Clean code organization</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section__head">
+        <h2 class="section__title">Projects</h2>
+        <p class="section__meta">Specification sheets — selected work</p>
+      </div>
+
+      <div class="spec-cards">
+        <article class="spec-card">
+          <div class="spec-card__head">
+            <span class="spec-card__code">PRJ-01</span>
+            <h3 class="spec-card__title">SmartPantry</h3>
+          </div>
+          <p class="spec-card__desc">
+            A desktop application that helps users manage pantry inventory,
+            reduce food waste, build shopping lists, and discover recipes based
+            on ingredients already on hand.
+          </p>
+          <ul class="spec-card__tags">
+            <li>Java</li>
+            <li>JavaFX</li>
+            <li>FXML</li>
+            <li>SQLite</li>
+            <li>Firebase</li>
+            <li>APIs</li>
+          </ul>
+          <div class="spec-card__links">
+            <a href="#" class="spec-card__link">Code →</a>
+            <a href="#" class="spec-card__link">Live Demo →</a>
+          </div>
+        </article>
+
+        <article class="spec-card spec-card--placeholder">
+          <div class="spec-card__head">
+            <span class="spec-card__code">PRJ-02</span>
+            <h3 class="spec-card__title">[Second Project Name]</h3>
+          </div>
+          <p class="spec-card__desc">
+            [Add a short description of this project — what it does and the
+            problem it solves.]
+          </p>
+          <ul class="spec-card__tags">
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+          <div class="spec-card__links">
+            <a href="#" class="spec-card__link">Code →</a>
+            <a href="#" class="spec-card__link">Live Demo →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="section__head">
+        <h2 class="section__title">Education</h2>
+        <p class="section__meta">Record — training and coursework</p>
+      </div>
+
+      <div class="record">
+        <div class="record__row">
+          <span class="record__marker" aria-hidden="true"></span>
+          <div class="record__body">
+            <h3 class="record__title">Computer Programming and Information Systems</h3>
+            <p class="record__desc">
+              Relevant coursework: Software Development, Database Systems,
+              Information Security, Systems Analysis and Design, Web Development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--contact" id="contact">
+      <div class="section__head">
+        <h2 class="section__title">Contact</h2>
+        <p class="section__meta">Manifest — how to reach me</p>
+      </div>
+
+      <ul class="manifest">
+        <li class="manifest__row">
+          <span class="manifest__label">Email</span>
+          <a class="manifest__value" href="mailto:aneudysgarcia2015@icloud.com">aneudysgarcia2015@icloud.com</a>
+        </li>
+        <li class="manifest__row">
+          <span class="manifest__label">GitHub</span>
+          <a class="manifest__value" href="https://github.com/Aneudys082102" target="_blank" rel="noopener">github.com/Aneudys082102</a>
+        </li>
+        <li class="manifest__row">
+          <span class="manifest__label">LinkedIn</span>
+          <a class="manifest__value" href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">linkedin.com/in/yourusername</a>
+        </li>
+        <li class="manifest__row">
+          <span class="manifest__label">Resume</span>
+          <a class="manifest__value" href="#" target="_blank" rel="noopener">Download PDF →</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <span>© 2026 Aneudys Garcia</span>
+      <a href="#top" class="footer__top">Back to top ↑</a>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
